@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>index</title>
+		<meta name="author" content="Raul" />
+		<!-- Date: 2013-02-01 -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+
+
+<script type="text/javascript">
+$("document").ready(function(){
+var audiourl = "http://live.sportreports.org:8000/radio_mobile_golos_rossii_64.mp3" // URL MP3
+hasFlash  = isFlashEnabled()
+
+if (hasFlash == false)
+{
+	$(".iphone").css({"display":"block"});
+	$("pcomp").css({"display":"none"});
+	$("pcomp").css({"heigh":"0px"})
+	$("pcomp").css({"width":"0px"})
+}
+
+
+
+});
+
+function isFlashEnabled()
+{
+    var hasFlash = false;
+    try
+    {
+        var fo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
+        if(fo) hasFlash = true;
+    }
+    catch(e)
+    {
+        if(navigator.mimeTypes ["application/x-shockwave-flash"] != undefined) hasFlash = true;
+    }
+    return hasFlash;
+}
+
+</script>
+
+<style type="text/css">
+
+.iphone
+{
+    display:none;
+    width:313px;
+    height:239px;    
+    
+}
+
+.pcomp
+
+{
+	width:313px;
+	
+	
+}
+	
+	
+	
+</style>
+
+
+
+	</head>
+	<body>
+
+<!-- SINGING POLIT FIRST-->
+
+<div id ='d' class="pcomp">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="313" height="239" id="video_file_103256327"><param name="movie" value="/images/flv/player.swf" /><param name="flashvars" value="frontcolor=0x000000&backcolor=0xFFFFFF&lightcolor=0x000000&file=http://m.ruvr.ru/data/2013/02/01/1337037781/obama.flv&screencolor=0x000000&image=http://m.ruvr.ru/data/2013/02/01/1337037781/obama.jpg" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><embed allowfullscreen="true" width="313" allowscriptaccess="always" bgcolor="FFFFFF" src="/images/flv/player.swf" class="mceXwItemFlashVideo" height="239" flashvars="frontcolor=0x000000&backcolor=0xFFFFFF&lightcolor=0x000000&file=http://m.ruvr.ru/data/2013/02/01/1337037781/obama.flv&screencolor=0x000000&image=http://m.ruvr.ru/data/2013/02/01/1337037781/obama.jpg" /></object>	
+	
+</div>
+
+
+<div class="iphone">
+
+<iframe width="313" height="176" src="http://www.youtube.com/embed/1E_5iwxF1G8" frameborder="0" allowfullscreen></iframe>
+	
+	
+</div>
+
+
+<!-- SINGING POLIT END-->
+
+
+
+
+	</body>
+</html>
+
