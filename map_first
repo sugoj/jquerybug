@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>New Web Project</title>
+	</head>
+	
+	<style type="text/css">
+		
+		#map
+		{
+			width:560px;
+			height:368px;
+			/*border:1px solid black;*/
+			float:left;
+			/*background-image:url("img/prib-bg.jpg");*/
+			
+		}
+		
+		.soch_slider
+		{
+			width:365px;	
+			height:345px;
+			float:left;
+			background:#EEEEEE;
+			display:none;
+			padding:10px;
+						
+		}
+		
+		.display
+		{
+			display:block;
+			
+		}
+		
+		
+	</style>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	
+	<script type="text/javascript">
+	
+	$("document").ready(function(){
+
+	$(".sochimap").mouseover(function()
+		{
+				var id  = $(this).index();
+				id = id + 2;
+				$(".soch_slider").removeClass("display");
+				$(".soch_slider:nth-child("+id+")").addClass("display");
+			
+		});
+		
+		
+		
+	});
+</script>
+	<body>
+	
+
+<div id = "map">
+<img alt="prib-com.jpg" src="http://rus.ruvr.ru//images/static/spec/sochi/prib-bg.jpg" usemap="#myMap" width="560" height="368" />
+    <map name="myMap" id="myMap">
+        <area shape="circle" coords="176,71,27" class="sochimap" />
+        <area shape="circle" coords="333,34,30" class="sochimap" />
+        <area shape="circle" coords="370,166,30" class="sochimap" />
+        <area shape="circle" coords="299,220,30" class="sochimap" />
+        <area shape="circle" coords="215,198,29" class="sochimap" />
+        <area shape="circle" coords="147,151,26" class="sochimap" />
+    </map>
+</div>
+	
+<div class="soch_slider">
+		<center><img src="http://m.ruvr.ru/data/2013/02/05/1337697807/2KKC01-17-10-2012[4].jpg" style="margin:5px;"></center><br/>
+		<b>«Адлер-Арена»</b> - это конькобежный центр, вместимость которого – 8 000 человек. Длина дорожки в нем составляет 400 метров.
+		<a href="" style="color:#3a71e1; float:right; margin-right:10px;">Подробнее</a> 
+</div>
+	
+	
+<div class="soch_slider">
+		<center><img src="http://m.ruvr.ru/data/2013/02/05/1337678717/2RIAN_01254407.LR.ru.jpg" style="margin:5px;"></center>
+		<br/>
+		Дворец Зимнего Спорта <b>«Айсберг»</b> - место для проведения одних из самых популярных и зрелищных зимних соревнований – по фигурному катанию. Также здесь будут разыграны все 8 комплектов наград в шорт-треке. Поболеть за фигуристов и конькобежцев смогут одновременно 12 000 любителей спорта.
+		<a href="" style="color:#3a71e1; float:right; margin-right:10px;">Подробнее</a>
+</div>
+	
+<div class="soch_slider">
+		<center><img src="http://m.ruvr.ru/data/2013/02/05/1337696350/2OS_01_13_6.jpg" style="margin:5px;"></center>
+		Олимпийский стадион <b>«Фишт»</b> 
+		Здесь будут проходить церемонии открытия и закрытия Олимпийских игр, а также церемонии награждения. До 40 000 посетителей смогут не только наблюдать все эти торжественные зрелища, но и полюбоваться одновременно горными вершинами на севере и Черным морем на юге.
+		<a href="" style="color:#3a71e1; float:right; margin-right:10px;">Подробнее</a>
+</div>
+	
+<div class="soch_slider">
+		<center><img src="http://m.ruvr.ru/data/2013/02/05/1337701057/2RIAN_01257036.LR.ru.jpg" style="margin:5px;"></center>
+		Малая Ледовая арена <b>«Шайба»</b>, как и Ледовый дворец, предназначена для проведения соревнований по хоккею с шайбой. Вместимость – 7 000 зрителей. Этому сооружению предстоит тестирование в апреле 2013 года, когда Сочи примут Чемпионат мира по хоккею среди юниоров. «Шайбу», как и керлинговый центр, можно будет демонтировать и перевезти.
+		<a href="" style="color:#3a71e1; float:right; margin-right:10px;">Подробнее</a> 
+</div>
+	
+<div class="soch_slider display">
+		<center><img src="http://m.ruvr.ru/data/2013/02/05/1337699080/2RIAN_01310731.LR.ru.jpg" style="margin:5px;"></center>
+		Большой Ледовый дворец <b>«Большой»</b> рассчитан на 12 000 любителей хоккея с шайбой, после Игр комплекс переформируется в крупных спортивный и развлекательный центр.
+		<a href="" style="color:#3a71e1; float:right; margin-right:10px;">Подробнее</a>
+</div>
+	
+<div class="soch_slider">
+		<center><img src="http://m.ruvr.ru/data/2013/02/05/1337697304/2kerl_01_13_3.jpg" style="margin:5px;"></center>
+		Керлинговый Центр <b>«Ледяной куб»</b> будет использован как для олимпийского, так и для паралимпийского керлинга. Вместимость комплекса – 3 000 человек. Этот объект спроектирован таким образом, что его можно легко демонтировать и переместить в любой другой город страны для проведения соревнований.
+		<a href="" style="color:#3a71e1; float:right; margin-right:10px;">Подробнее</a>
+</div>
+<div style="clear: both; margin:0px; height:0px;"></div>
+
+	
+	
+	</body>
+</html>
+
